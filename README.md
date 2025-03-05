@@ -1,30 +1,12 @@
-# schedule-x-test
+# React + Vite
 
-## Descripción
-Este proyecto es una aplicación para gestionar y programar tareas.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Instalación
-Para instalar las dependencias del proyecto, ejecuta el siguiente comando:
+Currently, two official plugins are available:
 
-```sh
-npm install
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Uso
-Para iniciar la aplicación, ejecuta el siguiente comando:
+## Expanding the ESLint configuration
 
-```sh
-npm start
-```
-
-## Contribuir
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz commit (`git commit -am 'Añadir nueva funcionalidad'`).
-4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
-5. Abre un Pull Request.
-
-## Licencia
-Este proyecto está bajo la Licencia MIT. schedule-x-test
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
