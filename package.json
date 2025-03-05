@@ -10,11 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@schedule-x/calendar": "^2.21.0",
-    "@schedule-x/events-service": "^2.21.0",
-    "@schedule-x/react": "^2.21.0",
-    "@schedule-x/theme-default": "^2.21.0",
+    "antd": "^5.24.3",
+    "date-fns": "^4.1.0",
     "react": "^19.0.0",
+    "react-big-calendar": "^1.18.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
